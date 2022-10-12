@@ -63,9 +63,16 @@ where from_date like '2001%'
 order by salary desc;
 
 -- 예제2 : 남자 직원의 이름, 성별, 입사일을 입사일순(선임순)으로 출력
+select first_name as '이름', 
+	   gender as '성별', 
+       hire_date as '입사일'
+	from employees
+where gender = 'm'
+order by '입사일' desc;
 
-
--- 예제3 : 직원들의 사번, 월급을 사번, 월급순으로 입력
-
+-- 예제3 : 직원들의 사번, 월급을 사번(asc), 월급순(desc)으로 입력
+select emp_no, salary
+	from salaries
+order by emp_no asc, salary desc;
 
 
