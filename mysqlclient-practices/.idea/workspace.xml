@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a956c66f-4f4d-4e55-a33a-b7c7484b04c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../model/cdmall.mwb.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../model/cdmall.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../model/cdmall.mwb" afterDir="false" />
+    <list default="true" id="e9d50c2c-9d19-4759-910b-488bd26e1ad0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mysqlclient-practices.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2GFAPW0IAaPHE3zjQxYOjvzwADT" />
+  <component name="ProjectId" id="2GFUOrviHFZEBsoW6n8S2ntWx26" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,17 +26,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "configurable.group.project"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a956c66f-4f4d-4e55-a33a-b7c7484b04c7" name="Changes" comment="" />
-      <created>1665973933324</created>
+      <changelist id="e9d50c2c-9d19-4759-910b-488bd26e1ad0" name="Changes" comment="" />
+      <created>1665983797095</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665973933324</updated>
+      <updated>1665983797095</updated>
     </task>
     <servers />
   </component>
