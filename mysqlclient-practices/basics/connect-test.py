@@ -10,10 +10,8 @@ try:
         db='webdb',
         charset='utf8')
 
-    print('success')
-except OperationalError as e:
-    print('error!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+    print('연결 성공')
 
-print('end!!!!')
-# cursor
-# cursor = db.cursor()
+except OperationalError as e:
+    print(f'에러: {e}')
+
