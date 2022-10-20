@@ -6,7 +6,7 @@ def findall():
         db = conn()
         cursor = db.cursor(DictCursor)
 
-        sql = ''
+        sql = 'select name, phone_number, email, password from member order by no desc'
         cursor.execute(sql)
 
         results = cursor.fetchall()
@@ -18,15 +18,16 @@ def findall():
     except OperationalError as e:
         print(f'에러: {e}')
 
-def insert():
+def insert(name, phone_number, email, password):
     try:
         db = conn()
         cursor = db.cursor()
 
-        sql = ''
-        count = cursor.execute()
+        sql = 'insert into member values(null, %s, %s, %s, %s)'
+        count = cursor.execute(sql, (name, phone_number, email, password))
 
         db.commit()
+
         cursor.close()
         db.close()
 
@@ -34,21 +35,7 @@ def insert():
     except OperationalError as e:
         print(f'에러: {e}')
 
-def deletebyemail():
-    try:
-        db = conn()
-        cursor = db.cursor()
 
-        sql = ''
-        count = cursor.execute()
-
-        db.commit()
-        cursor.close()
-        db.close()
-
-        return count == 1
-    except OperationalError as e:
-        print(f'에러: {e}')
 
 def conn():
     db = connect(
