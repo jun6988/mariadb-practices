@@ -6,7 +6,7 @@ def findall():
         db = conn()
         cursor = db.cursor(DictCursor)
 
-        sql = 'select member_no, book_no, quantity from cart order by no desc'
+        sql = 'select a.title, b.quantity, a.price from book a, cart b where a.no = b.book_no'
         cursor.execute(sql)
 
         results = cursor.fetchall()
@@ -23,7 +23,7 @@ def insert(member_no, book_no, quantity):
         db = conn()
         cursor = db.cursor()
 
-        sql = 'insert into member values(null, %s, %s, %s)'
+        sql = 'insert into cart values(%s, %s, %s)'
         count = cursor.execute(sql, (member_no, book_no, quantity))
 
         db.commit()
