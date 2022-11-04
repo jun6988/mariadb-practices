@@ -3,7 +3,7 @@ package com.bitacademy.bookshop.dao.test;
 import com.bitacademy.bookshop.dao.AuthorDao;
 import com.bitacademy.bookshop.vo.AuthorVo;
 
-public class AuthoDaoTest {
+public class AuthorDaoTest {
 
 	public static void main(String[] args) {
 		testInsert("스테파니메이어");
