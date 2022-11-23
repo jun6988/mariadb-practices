@@ -22,4 +22,8 @@ delete from book;
 
 select * from emaillist;
 
-insert into emaillist values(null,'둘','리','dooli@gmail.com');
+-- findAll
+select a.no, a.title, b.name, a.status
+	from book a, author b
+where a.author_no = b.no
+order by a.no asc;
